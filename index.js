@@ -54,9 +54,7 @@ function createTitlesFromGameData(gameData) {
 function createWordPressPost(b64url, postTitle, featuredImageTitle, imageName) {
 
   let wp = new WPAPI({
-    endpoint: 'https://www.msuhockey.com/wp-json/',
-    username: 'api_user',
-    password: 'fuck_c@r0n@_2020'
+    
   });
 
   wp.posts().create({
